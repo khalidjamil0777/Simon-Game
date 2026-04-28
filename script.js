@@ -12,7 +12,6 @@ document.addEventListener("keypress", function() {
     if(started == false) {
         console.log("game is started");
         started = true;
-
         levelup();
     }
 });
